@@ -1,0 +1,15 @@
+.coffeecon {
+    text-align: center;
+    width: 94%;
+    margin: 0 3% 0 3% !important;
+    padding-bottom: 120px;
+}
+
+.coffee-card {
+    width: 36%;
+    float: left;
+    margin-left: 7% !important;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+}

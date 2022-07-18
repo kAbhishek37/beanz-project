@@ -1,0 +1,35 @@
+.bg-dark {
+    background-color: #2b2b2d !important;
+    padding-bottom:5px!important;
+}
+
+.mbmenutext {
+    color:#fff!important;
+}
+
+.nbitem:hover {
+    border-bottom-style: solid;
+    border-color: #39bbbb;
+    border-width: 6px;
+    border-radius: 3px;
+}
+
+.iconcon {
+    float: right;
+}
+
+.ricon {
+    border-radius: 50%;
+}
+
+.searchfield {
+    top: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.navsearch {
+    margin: 10px 20px 20 10px;
+    float: left;
+}

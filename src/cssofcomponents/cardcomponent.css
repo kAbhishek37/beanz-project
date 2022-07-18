@@ -1,0 +1,40 @@
+.cccard {
+    margin: 0 0.5em;
+    padding:1.4em 0;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 30%);
+    border: none;
+    border-radius: .7rem!important;
+    width:21%;
+    float:left;
+    cursor: pointer;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.cccon {
+    width:100%;
+    height:auto;
+    justify-content: center;
+    padding:0 10%;
+}
+
+.ccimage {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.cctitle {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #a25e41;
+    font-weight: 700;
+}
+
+.cctext {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
