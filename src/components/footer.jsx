@@ -66,7 +66,7 @@ class Footer extends Component {
         </div>
         <div className="footercopyr">
           <p>
-            © 2022 Br/eville USA, Inc. All rights reserved. |
+            © 2022 Breville USA, Inc. All rights reserved. |
             <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> |
             <a href="#">Cookie Policy</a> |<a href="#">Social Responsibility</a>
             |<a href="#">Modern Slavery Act</a> | <a href="#">Site Map</a>
