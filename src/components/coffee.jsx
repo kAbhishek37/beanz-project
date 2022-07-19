@@ -25,7 +25,7 @@ class Coffee extends Component {
           ))}
         </ul>
         <a href={this.props.value.pageURL} target="blank">
-          <button className="beanbtn">Learn more about coffee</button>
+          <button className="beanbtn mt-5">Learn more about coffee</button>
         </a>
       </div>
     );

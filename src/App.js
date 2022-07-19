@@ -14,7 +14,7 @@ function App() {
   const [data, setData] = useState([]);
   const getData = () => {
     fetch(
-      "http://localhost:4503/secondprojectdemo/bin/api/content/v4?page=home-page",
+      "http://localhost:4503/secondprojectdemo/bin/api/content/v5?page=home-page",
       {
         headers: {
           "Content-Type": "application/json",
@@ -42,7 +42,7 @@ function App() {
       {Object.keys(data).map((key, index) => {
         //console.log(key);
 
-        if (key === "exploreimagebutton") {
+        if (key.startsWith("exploreimagebutton")) {
           return (
             console.log(data[key]),
             (
@@ -52,17 +52,17 @@ function App() {
               ></ExploreImageButton>
             )
           );
-        } else if (key === "heading") {
+        } else if (key.startsWith("heading")) {
           return (
             console.log(data[key]),
             (<Heading key={index} value={data[key]}></Heading>)
           );
-        } else if (key.includes("howitwork")) {
+        } else if (key.startsWith("howitwork")) {
           return (
             console.log(data[key]),
             (<HowItWork key={index} value={data[key]}></HowItWork>)
           );
-        } else if (key.includes("yourfavoritebean")) {
+        } else if (key.startsWith("yourfavoritebean")) {
           return (
             console.log(data[key]),
             (
@@ -72,17 +72,17 @@ function App() {
               ></YourFavoriteBean>
             )
           );
-        } else if (key.includes("cardcomponent")) {
+        } else if (key.startsWith("cardcomponent")) {
           return (
             console.log(data[key]),
             (<CardComponent key={index} value={data[key]}></CardComponent>)
           );
-        } else if (key.includes("coffee")) {
+        } else if (key.startsWith("coffee")) {
           return (
             console.log(data[key]),
             (<Coffee key={index} value={data[key]}></Coffee>)
           );
-        } else if (key.includes("emailnotification")) {
+        } else if (key.startsWith("emailnotification")) {
           return (
             console.log(data[key]),
             (
