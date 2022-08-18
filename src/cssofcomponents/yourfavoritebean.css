@@ -72,11 +72,15 @@
 }
 
 .favpara {
-    font-size: 15px;;
+    font-size: 13px;
+    font-family: "Montserrat";
+    font-weight: 500;
 }
 
  .yfbtitle {
     letter-spacing: -.9px;
+    font-family: "Bitter";
+    font-weight: 700;;
  } 
 
  .favcenter {

@@ -16,7 +16,7 @@ class HowItWork extends Component {
           {Object.keys(obj).map((oneItem) => (
             <div
               key={obj[oneItem].title}
-              className="card hiwcard h-100 col-sm-3"
+              className="card hiwcard h-100 col-sm-4 col-md-3"
             >
               <img
                 src={obj[oneItem].linkURL}

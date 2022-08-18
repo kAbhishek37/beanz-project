@@ -34,8 +34,12 @@ class YourFavoriteBean extends Component {
           </div>
         </div>
         <div className="beanbtndiv">
-          <a href="{this.props.value.linkURL}" target="blank">
-            <button className="beanbtn">Take Our Quiz</button>
+          <a href={this.props.value.linkURL} target="blank">
+            {this.props.value.favbtntitle && (
+              <button className="beanbtn">
+                {this.props.value.favbtntitle}
+              </button>
+            )}
           </a>
         </div>
       </div>

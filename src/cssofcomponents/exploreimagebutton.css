@@ -32,9 +32,9 @@
 }
 
 .explorepara {
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-weight: 500;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", "sans-serif";
     margin: 15px 0;
     padding: 0 40px 0 40px;
 }
@@ -50,7 +50,7 @@
     border: 2px solid rgb(0, 131, 132);
     border-radius: 4px;
     font-size: 1.1rem;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: -0.5px;
     font-weight: bold;
     text-align: center;
