@@ -28,19 +28,24 @@
 
 .footerbluemenu {
     line-height: 1.36;
+    margin-left: 0px;
 }
 
 .footerbluemenu a {
     text-decoration: none!important;
     color: #68d3d3!important;
+    font-family: "Montserrat", sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
 }
 
 .footercopyr {
     display: inline-block;
     width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: .6rem;
     font-weight: 400;
     color: #fff;
-    font-size: .75rem;
     margin-top: 25px;
     padding-left: 1.4%;
 }
@@ -48,4 +53,7 @@
 .footercopyr a {
     text-decoration: none!important;
     color: #fff!important;
+    font-family: "Montserrat", sans-serif;
+    font-size: .6rem;
+    font-weight: 400;
 }

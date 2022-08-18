@@ -13,3 +13,10 @@
     font-family: "Montserrat", sans-serif;
     font-size: 0.8rem;
 }
+
+.coffee-title {
+    font-family: "Bitter";
+    font-size: 1.8rem;
+    line-height: 1.33;
+    font-weight: 700;
+}

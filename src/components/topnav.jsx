@@ -1,49 +1,60 @@
 import React, { Component } from "react";
 import "../cssofcomponents/topnav.css";
+import { Link } from "react-router-dom";
 
 class TopNav extends Component {
   state = {};
   render() {
     return (
-      <nav className="navbar navmaincon navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
+      <nav className="navbar navmaincon navbar-expand-lg navbar-dark bg-dark navbar-custom">
+        <Link className="navbar-brand" to="/">
           <img
             src="https://www.beanz.com/content/experience-fragments/beanz/us/en/site/header/master/_jcr_content/root/image.coreimg.svg/1649175807319/beanz-white.svg"
             width="90px"
             height="45px"
           />
-        </a>
-
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/shopcoffee">
                 Shop Coffee
                 {/* <span className="sr-only">(current)</span> */}
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/ourroasters">
                 Our Roasters
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/baristaschoice">
                 Barista's Choice
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/coffeelowdown">
                 Coffee Lowdown
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/ourstory">
                 Our Story
-              </a>
+              </Link>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">

@@ -18,6 +18,8 @@
 .emailnotemailfield {
     padding: 18px 12px 0 0;
     cursor: pointer;
+    width:40%;
+    margin-left: 22%;
     color: #707070;
     font-size: 1rem;
     border: solid #a3a3a3;
@@ -55,7 +57,8 @@ input.emailnotemailfield:focus {
     width: 100%;
     display: inline-block;
     margin-top: 20px;
-    margin-left: 2.5%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
 }
 
 .emailnotrow2 p a {
@@ -68,9 +71,11 @@ input.emailnotemailfield:focus {
     margin-left: 5%;
 }
 
-.entitle {
+.enmaincon .row .entitle h3 {
     float:left;
-    margin-left: 3.2%;
+    margin-left: 26%;
+    font-family: "Bitter"!important;
+    font-weight: 700!important;
 }
 
 .enmaincon {

@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
-import TopNav from "./components/topnav";
-import ExploreImageButton from "./components/exploreimagebutton";
-import Heading from "./components/heading";
-import HowItWork from "./components/howitwork";
-import YourFavoriteBean from "./components/yourfavoritebean";
-import CardComponent from "./components/cardcomponent";
-import Coffee from "./components/coffee";
-import EmailNotification from "./components/emailnotification";
-import Footer from "./components/footer";
-import FetchJsonData from "./components/utils";
+import "../App.css";
+import ExploreImageButton from "../components/exploreimagebutton";
+import Heading from "../components/heading";
+import HowItWork from "../components/howitwork";
+import YourFavoriteBean from "../components/yourfavoritebean";
+import CardComponent from "../components/cardcomponent";
+import Coffee from "../components/coffee";
+import EmailNotification from "../components/emailnotification";
+import FetchJsonData from "../components/utils";
 
-function App() {
+function HomePage() {
   const [data, setData] = useState(null);
   const getData = () => {
     FetchJsonData(
@@ -48,4 +46,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

@@ -15,7 +15,11 @@ class ExploreImageButton extends Component {
           <h2 className="exploreheading">{this.props.value.imagetitle}</h2>
           <p className="explorepara">{this.props.value.imagedesc}</p>
           <a href={this.props.value.pagelink} target="blank">
-            <button className="explorebtn">Start Exploring</button>
+            {this.props.value.btntitle && (
+              <button className="explorebtn">
+                {this.props.value.btntitle}
+              </button>
+            )}
           </a>
         </div>
       </div>
