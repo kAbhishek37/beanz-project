@@ -9,7 +9,6 @@ export default function CardComponent(value) {
     setIndex(selectedIndex);
   };
   const multifield = [value.value.multifield];
-  console.log(value.value);
   var obj3 = Object.values(multifield[0]);
 
   let len = obj3.length;
@@ -40,17 +39,18 @@ export default function CardComponent(value) {
       newArray.push(v);
     }
   });
-  // console.log(itemsArray);
   return itemsArray.length != 0 ? (
     <div>
       <Carousel
+        slide={false}
+        // wrap={false}
         className=""
         activeIndex={index}
         onSelect={handleSelect}
         interval={null}
       >
         {itemsArray.map((oneItem) => (
-          <Carousel.Item className="cccon">
+          <Carousel.Item interval={1000} className="cccon">
             {oneItem.map((newItem) => {
               return (
                 <a href={newItem.pageURL} target="blank">
@@ -71,7 +71,6 @@ export default function CardComponent(value) {
           </Carousel.Item>
         ))}
       </Carousel>
-      {/* {console.log(value.value.allcardlink)} */}
       <a href={value.value.allcardlink} target="blank">
         {value.value.cardbtntitle && (
           <button className="beanbtn mt-5 mb-5">

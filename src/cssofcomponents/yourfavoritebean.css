@@ -1,93 +1,95 @@
 .beanmain {
-    margin-bottom:0px;
-    background-color:#faf7f5;
+  margin-bottom: 0px;
+  background-color: #faf7f5;
 }
 
 .beanheading {
-    text-align: center;
-    font-size: 2rem;
-    font-family: "Bitter", sans-serif;
-    font-weight: bold;
-    background-color: #faf7f5;
-    padding-top: 50px;
-    width: 100%;
-    height: 100px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+  background-color: #faf7f5;
+  padding-top: 50px;
+  width: 100%;
+  height: 100px;
 }
 
 .beanimgleft {
-    width: 55%;
-    height: 450px;
-    float: left;
-    position: relative;
+  width: 55%;
+  height: 450px;
+  float: left;
+  position: relative;
 }
 
 .beanimgright {
-    width: 55%;
-    height: 450px;
-    float: right;
+  width: 55%;
+  height: 450px;
+  float: right;
 }
 
 .leftbeandesc {
-    margin-top: 100px !important;
-    position: absolute;
-    left: 30%;
-    width: 20%;
+  margin-top: 100px !important;
+  position: absolute;
+  left: 30%;
+  width: 20%;
 }
 
 .rightbeandesc {
-    margin-top: 100px !important;
-    position: absolute;
-    right: 25%;
-    width: 20%;
+  margin-top: 100px !important;
+  position: absolute;
+  right: 25%;
+  width: 20%;
 }
 
 .beanbtn {
-    height: 50px;
-    color: #007584;
-    background-color: #ccf2f2;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    font-weight: 700;
-    border: 0;
-    border-radius: 4px;
-    cursor: pointer;
-    line-height: 1.5;
-    padding: 0 1.875rem;
+  height: 50px;
+  color: #007584;
+  background-color: #ccf2f2;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1.5;
+  padding: 0 1.875rem;
 }
 
 .beanbtndiv {
-    display: inline-block;
-    width: 100%;
-    margin: 0px 10px 10px 10px;
-    padding-bottom: 50px;
-    text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 0px 10px 10px 10px;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .yfbcenterdiv {
-    margin-top: 10%;
-    text-align: left;
-    line-height: 1.2rem;
+  margin-top: 10%;
+  text-align: left;
+  line-height: 1.2rem;
 }
 
 .favpara {
-    font-size: 13px;
-    font-family: "Montserrat";
-    font-weight: 500;
+  font-size: 13px;
+  font-family: "Montserrat";
+  font-weight: 500;
 }
 
- .yfbtitle {
-    letter-spacing: -.9px;
-    font-family: "Bitter";
-    font-weight: 700;;
- } 
+.yfbtitle {
+  letter-spacing: -0.9px;
+  font-family: "Bitter";
+  font-weight: 700;
+}
 
- .favcenter {
-    padding-top: 100%;
-    padding-top: 50%;
- }
+.favcenter {
+  padding-top: 100%;
+  padding-top: 50%;
+  font-family: "Bitter", sans-serif;
+  font-weight: bold;
+}
 
- .yfbmaincon {
-    background-color: #faf7f5;
- }
+.yfbmaincon {
+  background-color: #faf7f5;
+}

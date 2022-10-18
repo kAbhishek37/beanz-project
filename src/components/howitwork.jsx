@@ -7,7 +7,6 @@ class HowItWork extends Component {
     var obj = [];
     Object.keys(howitworkmultifield).map(function (item) {
       obj = howitworkmultifield[item];
-      //console.log(howitworkmultifield[item]);
     });
 
     return (

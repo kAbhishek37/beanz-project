@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Heading from "../components/heading";
-import HowItWork from "../components/howitwork";
 import CardComponent from "../components/cardcomponent";
-import Coffee from "../components/coffee";
+import ExploreImageButton from "../components/exploreimagebutton";
 import FetchJsonData from "../components/utils";
 function ShopCoffee() {
   const [data, setData] = useState(null);
@@ -22,12 +20,10 @@ function ShopCoffee() {
     <>
       {data !== null ? (
         <div className="App">
-          <Heading value={data.heading}></Heading>
+          <ExploreImageButton
+            value={data.exploreimagebutton}
+          ></ExploreImageButton>
           <CardComponent value={data.cardcomponent}></CardComponent>
-          <Heading value={data.heading_1}></Heading>
-          <Coffee value={data.coffee}></Coffee>
-          <Heading value={data.heading_2}></Heading>
-          <HowItWork value={data.howitwork}></HowItWork>
         </div>
       ) : (
         <h1 className="text-center">Unable to fetch Shop Coffee</h1>

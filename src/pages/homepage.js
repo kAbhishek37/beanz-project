@@ -35,6 +35,7 @@ function HomePage() {
           <YourFavoriteBean value={data.yourfavoritebean}></YourFavoriteBean>
           <Heading value={data.heading_1}></Heading>
           <CardComponent value={data.cardcomponent}></CardComponent>
+          {/* <CardComponentTest value={data.cardcomponent}></CardComponentTest> */}
           <Heading value={data.heading_2}></Heading>
           <Coffee value={data.coffee}></Coffee>
           <EmailNotification value={data.emailnotification}></EmailNotification>

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import HomePage from "./pages/homepage";
-import ShopCoffee from "./pages/shopcoffee";
+import SearchComponent from "./pages/searchcomponent";
 import BaristasChoice from "./pages/baristaschoice";
 import CoffeeLowdown from "./pages/coffeelowdown";
 import OurRoasters from "./pages/ourroasters";
@@ -20,7 +20,9 @@ root.render(
     <TopNav />
     <Routes>
       <Route exact path="/" element={<HomePage />}></Route>
-      <Route exact path="/shopcoffee" element={<ShopCoffee />} />
+      <Route exact path="/search/:search" element={<SearchComponent />}></Route>
+      <Route exact path="/search" element={<SearchComponent />}></Route>
+      <Route exact path="/shopcoffee" element={<SearchComponent />} />
       <Route exact path="/baristaschoice" element={<BaristasChoice />} />
       <Route exact path="/coffeelowdown" element={<CoffeeLowdown />} />
       <Route exact path="/ourroasters" element={<OurRoasters />} />

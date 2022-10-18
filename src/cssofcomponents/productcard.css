@@ -1,0 +1,74 @@
+.scardcontainer {
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.scardeachcard {
+  margin: 0 0 2% 2%;
+  height: 550px;
+  flex: 0 1 30%;
+  border: 1.5px solid #909090;
+  border-radius: 4px;
+  background-color: #faf7f5;
+}
+
+.scardimage {
+  background-color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+  padding-top: 6%;
+  width: 100%;
+}
+
+.scarddownstyle {
+  background-color: #faf7f5;
+  align-items: center;
+  justify-content: center;
+}
+
+.scardbrand {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 3.5;
+  font-weight: 700;
+  color: #007584;
+}
+
+.scardtitle {
+  font-family: "Bitter", sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem 0;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #2b2b2d;
+}
+
+.scardsubtitle {
+  font-size: 1.35rem;
+  margin: 1.5rem 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
+  font-weight: 100;
+  letter-spacing: -0.5px;
+}
+
+.scardprice {
+  font-family: "Bitter", sans-serif;
+  font-size: 1.125rem;
+  color: #a25e41;
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+.shopsearchinut {
+}
+
+.titlerightdiv {
+  float: left;
+  width: 100%;
+}
